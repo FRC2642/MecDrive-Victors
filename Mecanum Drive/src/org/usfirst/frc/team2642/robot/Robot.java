@@ -89,7 +89,7 @@ public class Robot extends SampleRobot {
             }else if (stick2.getY() < -.5){
             	victor.set(-.5);
             }else{
-            	victor.set(stick2.getY());
+            	victor.set(stick2.getY()); //
             }
         }
     }
